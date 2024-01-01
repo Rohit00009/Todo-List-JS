@@ -58,11 +58,11 @@ function deleteCheck(e) {
     const todo = item.parentElement;
     //animation
     todo.classList.add("fall"); //transition
-    removeLocalTodos(todo);
+    //removeLocalTodos(todo);
     //todo.remove(); -> comment remove to remove direct deletion and can be apply transition
     //but after this only transition applied but other elements stays at there places
     //so
-    todo.addEventListener("transitional", function () {
+    todo.addEventListener("transitionend", function () {
       todo.remove();
     });
   }

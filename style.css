@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: /*linear-gradient(120deg,#e7b0b0,#e81212)*/ url("./bgimage.jpg");
+    background-image: /*linear-gradient(120deg,#e7b0b0,#e81212)*/ url("./bgimage5.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -102,7 +102,7 @@ form button:hover{
 .fall{
     transform: translateY(8rem) rotateZ(20deg);
     opacity: 0;
-    display: none;/* transition cant applied to display */
+    /* display: none;transition cant applied to display */
 }
 
 
