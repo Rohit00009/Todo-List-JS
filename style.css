@@ -96,8 +96,7 @@ form button:hover{
 .fall{
     transform: translateY(8rem) rotateZ(20deg);
     opacity: 0;
-    transition: all 0.3s ease;
-    display: none;
+    display: none;/* transition cant applied to display */
 }
 
 
