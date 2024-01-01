@@ -11,6 +11,7 @@ todoList.addEventListener("click", deleteCheck);
 filterOption.addEventListener("click", filterTodo);
 
 //functions
+
 function addTodo(event) {
   event.preventDefault(); //use to stop refreshing our browser again and again means prevent form from submitting
   //console.log("hello"); -> to check our code works or not!
